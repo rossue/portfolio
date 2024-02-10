@@ -485,6 +485,32 @@ a:hover, a:active, a:focus {
   font-weight: bold;
 }
 
+.icon-image img {
+  width: 15%;
+  margin: 0 auto;
+}
+
+@media (max-width: 767px) {
+  .icon-image img {
+    width: 50%; /* Adjust the width percentage as needed */
+    margin-left: 0; /* Remove margin on the left side */
+    margin-bottom: 10px; /* Add bottom margin for spacing */
+  }
+}
+
+.icon-upwork img {
+  width: 30%;
+  margin: 0 auto;
+}
+
+@media (max-width: 767px) {
+  .icon-upwork img {
+    width: 50%; /* Adjust the width percentage as needed */
+    margin-left: 0; /* Remove margin on the left side */
+    margin-bottom: 10px; /* Add bottom margin for spacing */
+  }
+}
+
 /*---------------------------------------
     Education section              
 -----------------------------------------*/
