@@ -490,7 +490,7 @@ a:hover, a:active, a:focus {
   margin: 0 auto;
 }
 
-@media (max-width: 767px) {
+@media (max-width: 991px) {
   .icon-image img {
     width: 15%; /* Adjust the width percentage as needed */
     margin-left: 0; /* Remove margin on the left side */
@@ -498,12 +498,13 @@ a:hover, a:active, a:focus {
   }
 }
 
+
 .icon-upwork img {
   width: 30%;
   margin: 0 auto;
 }
 
-@media (max-width: 767px) {
+@media (max-width: 991px) {
   .icon-upwork img {
     width: 50%; /* Adjust the width percentage as needed */
     margin-left: 0; /* Remove margin on the left side */
