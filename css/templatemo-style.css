@@ -492,7 +492,7 @@ a:hover, a:active, a:focus {
 
 @media (max-width: 767px) {
   .icon-image img {
-    width: 50%; /* Adjust the width percentage as needed */
+    width: 15%; /* Adjust the width percentage as needed */
     margin-left: 0; /* Remove margin on the left side */
     margin-bottom: 10px; /* Add bottom margin for spacing */
   }
