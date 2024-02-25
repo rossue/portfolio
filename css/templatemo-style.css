@@ -168,6 +168,11 @@ footer {
   color: #ffffff;
 }
 
+.color-black {
+  color: #000000;
+}
+
+
 .color-yellow {
   color: #333333;
   font-weight: 400;
@@ -179,6 +184,10 @@ footer {
 
 .bg-brown {
   background: #947164;
+}
+
+.bg-grey {
+  background: #f1eded;
 }
 
 .bg-white {
@@ -486,31 +495,19 @@ a:hover, a:active, a:focus {
 }
 
 .icon-image img {
-  width: 15%;
-  margin: 0 auto;
+  width: 5%;
+  margin: 5px 5px;
+  filter: grayscale(100%);
 }
 
 @media (max-width: 991px) {
   .icon-image img {
-    width: 15%; /* Adjust the width percentage as needed */
+    width: 10%; /* Adjust the width percentage as needed */
     margin-left: 0; /* Remove margin on the left side */
     margin-bottom: 10px; /* Add bottom margin for spacing */
   }
 }
 
-
-.icon-upwork img {
-  width: 30%;
-  margin: 0 auto;
-}
-
-@media (max-width: 991px) {
-  .icon-upwork img {
-    width: 50%; /* Adjust the width percentage as needed */
-    margin-left: 0; /* Remove margin on the left side */
-    margin-bottom: 10px; /* Add bottom margin for spacing */
-  }
-}
 
 /*---------------------------------------
     Education section              
