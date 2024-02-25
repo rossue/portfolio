@@ -444,7 +444,7 @@ a:hover, a:active, a:focus {
 
 #about strong,
 #about span {
-  font-weight: bold;
+  
   display: inline-block;
   padding-bottom: 8px;
 }
