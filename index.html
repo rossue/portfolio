@@ -18,13 +18,30 @@
 <link rel="icon" href="logo.ico" type="image/x-icon">
 <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700" rel="stylesheet">
 <script src="https://kit.fontawesome.com/fb75d9beac.js" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+
 <style>
   .service-thumb i {
     font-size: 35px; 
   }
+
   .wow-icon{
      font-size: 20px;
   }
+
+  #typed-text {
+    padding-bottom: 20px !important; 
+    font-size: 20px;
+  }
+
+  #typed-text strong {
+      display: inline-block;
+      
+
+.typed-cursor {
+    font-size: 22px;
+  }
+
 </style>
 </head>
 <body data-spy="scroll" data-target=".navbar-collapse" data-offset="50">
@@ -50,7 +67,7 @@
                     <span class="icon icon-bar"></span>
                     <span class="icon icon-bar"></span>
                </button>
-               <a href="#" class="navbar-brand">Rosefield</a>
+               <a href="#" class="navbar-brand">Rosefield.</a>
           </div>
 
           <div class="collapse navbar-collapse">
@@ -81,8 +98,8 @@
                          <div class="section-title">
                               <h4 class="wow fadeInUp" data-wow-delay="0.3s">welcome to my website portfolio</h4>
                               <h1 class="wow fadeInUp" data-wow-delay="0.6s">Hello, I am <strong>Rosefield</strong> currently based in Philippines.</h1>
-                              <p class="wow fadeInUp" data-wow-delay="0.9s" style="text-align: justify;">Experienced Senior IT Specialist with 7 years of expertise in technical and web development. Accomplished in managing comprehensive IT projects and excelling as a Social Media Manager. Proficient in CMS platforms like WordPress and Joomla, showcasing a versatile skill set in both technical and creative domains.</p>
-                              
+                              <span id="typed-text"></span>
+                              <p class="wow fadeInUp" data-wow-delay="0.9s" style="text-align: justify;">Experienced Senior IT Specialist with 7 years of expertise in technical and web development. Accomplished in managing comprehensive IT projects and excelling as a Social Media Manager. Proficient in CMS platforms like WordPress and Joomla, showcasing a versatile skill set in both technical and creative domains.</p>                           
                               <a href="#about" class="wow fadeInUp smoothScroll section-btn btn btn-success" data-wow-delay="1.4s">Get Started</a>
                               
                          </div>
@@ -438,6 +455,23 @@
 <script src="js/smoothscroll.js"></script>
 <script src="js/wow.min.js"></script>
 <script src="js/custom.js"></script>
+<script>
+document.addEventListener('DOMContentLoaded', function () {
+     var options = {
+     strings: ["I'm a <strong>Web Developer</strong> and <strong>Social Media Manager.</strong>"],
+     typeSpeed: 50, 
+     startDelay: 2000, 
+     showCursor: true, 
+     cursorChar: '<span class="typed-cursor">|</span>',
+     fadeOut: true, 
+     fadeOutDelay: 500, 
+     };
 
+     var typed = new Typed('#typed-text', options);
+});
+</script>
+   
+   
+   
 </body>
 </html>
