@@ -172,10 +172,13 @@ footer {
   color: #000000;
 }
 
-
 .color-yellow {
   color: #333333;
   font-weight: 400;
+}
+
+.color-grey {
+  background: #f1eded;
 }
 
 .bg-yellow {
@@ -610,7 +613,7 @@ a:hover, a:active, a:focus {
 #contact .form-control {
   background: transparent;
   border: none;
-  border-bottom: 1px solid #B09D95;
+  border-bottom: 1px solid #f6f0ee;
   border-radius: 0px;
   box-shadow: none;
   color: #ffffff;
@@ -653,7 +656,7 @@ a:hover, a:active, a:focus {
 -----------------------------------------*/
 
 footer {
-    padding: 140px 0px;
+    padding: 70px 0px;
 }
 
 
@@ -679,7 +682,7 @@ footer {
     color: #999;
     border-radius: 100px;
     cursor: pointer;
-    font-size: 16px;
+    font-size: 22px;
     text-decoration: none;
     transition: all 0.4s ease-in-out;
     width: 50px;
@@ -692,7 +695,7 @@ footer {
 }
 
 .social-icon li a:hover {
-    background: #333333;
+    background: #947164;
     border-color: #ffffff;
     color: #ffffff;
     transform: scale(1.1);
