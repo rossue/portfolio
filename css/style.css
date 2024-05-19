@@ -1,0 +1,21 @@
+ .service-thumb i {
+    font-size: 35px; 
+  }
+
+  .wow-icon{
+     font-size: 20px;
+  }
+
+  #typed-text {
+    padding-bottom: 20px !important; 
+    font-size: 20px;
+  }
+
+  #typed-text strong {
+      display: inline-block;
+  }
+
+.typed-cursor {
+    font-size: 22px;
+  }
+
