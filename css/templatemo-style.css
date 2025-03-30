@@ -338,10 +338,9 @@ a:hover, a:active, a:focus {
 }
 
 .custom-navbar .nav li.active > a {
-    background-color: transparent;
-    color: #C8918C;
+  background-color: #f1e2d7;
+  color: #0f0e0e;
 }
-
 .custom-navbar .navbar-toggle {
     border: none;
     padding-top: 10px;
