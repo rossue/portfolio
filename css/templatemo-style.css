@@ -52,7 +52,7 @@ h3 {
 }
 
 h4 {
-  color: #999;
+  color: #ffffff;
   font-size: 12px;
   font-weight: normal;
   letter-spacing: 2px;
@@ -65,7 +65,7 @@ h5 {
 }
 
 strong {
-  color: #333333;
+  color: #ffffff;
   font-weight: normal;
 }
 
@@ -182,15 +182,15 @@ footer {
 }
 
 .bg-yellow {
-  background: #B09D95;
+  background: #184a4e;
 }
 
 .bg-brown {
-  background: #947164;
+  background: #7da2ae;
 }
 
 .bg-grey {
-  background: #f1eded;
+  background: #f3f5f9;
 }
 
 .bg-white {
@@ -202,7 +202,7 @@ footer {
 }
 
 .bg-dark {
-  background: #F0E1D6;
+  background: #edeef7;
 }
 
 .bg-dark-h3 {
@@ -318,7 +318,7 @@ a:hover, a:active, a:focus {
 }
 
 .custom-navbar .nav li a {
-    color: #666;
+    color: #f3f5f9;
     font-size: 14px;
     font-weight: 400;
     letter-spacing: 1px;
@@ -329,7 +329,7 @@ a:hover, a:active, a:focus {
 
 .custom-navbar .nav li a:hover {
     background: transparent;
-    color: #C8918C;
+    color: #4f7b86;
 }
 
 .custom-navbar .navbar-nav > li > a:hover,
@@ -338,7 +338,7 @@ a:hover, a:active, a:focus {
 }
 
 .custom-navbar .nav li.active > a {
-  background-color: #f1e2d7;
+  background-color: #c0ccd6;
   color: #0f0e0e;
 }
 .custom-navbar .navbar-toggle {
@@ -362,10 +362,12 @@ a:hover, a:active, a:focus {
         background: 0 0; 
     }
     .custom-navbar.top-nav-collapse {
-        background: #ffffff;
+        background: #4f7b86;
+        color: #ffffff;
         box-shadow: 0px 2px 8px 0px rgba(50, 50, 50, 0.08);
         padding: 0;
     }
+    
 
 }
 
@@ -380,7 +382,7 @@ a:hover, a:active, a:focus {
 }
 
 #home .col-md-6 {
-  background: #f1e2d7;
+  background: #7da2ae;
 /* light blue color: #c3eafd; */
   padding-right: 0;
   padding-left: 0;
@@ -442,7 +444,7 @@ a:hover, a:active, a:focus {
 }
 
 #about .progress-bar-primary {
-  background: #333333;
+  background: #7da2ae;
 }
 
 #about strong,
