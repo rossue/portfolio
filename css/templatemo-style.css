@@ -387,7 +387,7 @@ a:hover, a:active, a:focus {
 }
 
 #home .home-img {
-  background: url('../images/img-thumbnail.PNG') no-repeat;
+  background: url('../images/img-thumbnail.png') no-repeat;
   background-size: cover;
   width: 100%;
   height: 100vh;
